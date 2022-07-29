@@ -1,6 +1,8 @@
 apiVersion: "1"
-version: "1"
+version: "2"
 id: "cludbees-CI-dev-controller"
 description: "CloudBees CI configuration bundle for the cludbees-CI dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cludbees-ci/dev-controller"
 parent: "base"
+rbac:
+  - "rbac.yaml"
