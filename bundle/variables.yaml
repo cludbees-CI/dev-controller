@@ -1,0 +1,4 @@
+variables:
+- team: cludbees-CI
+- admin-user: sureshms07-admin
+- manager-user: sureshms07
